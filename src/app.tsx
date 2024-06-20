@@ -1,9 +1,17 @@
 import React from "react";
+import { ThemeProvider } from "styled-components";
 
-export default function App() {
+import { GlobalStyle } from "./styles/global";
+import { defaultTheme } from "./styles/themes/default";
+
+export function App() {
   return (
-    <section>
-      <h1>Todos</h1>
-    </section>
+    <ThemeProvider theme={defaultTheme}>
+      <GlobalStyle />
+
+      <section>
+        <h1>Todos</h1>
+      </section>
+    </ThemeProvider>
   );
 }
