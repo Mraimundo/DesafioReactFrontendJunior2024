@@ -7,9 +7,9 @@ interface SpinnerProps {
 export default function Spinner({ size }: SpinnerProps) {
   return (
     <StyledSpinner size={size}>
-      <div className="loader-dot"></div>
-      <div className="loader-dot"></div>
-      <div className="loader-dot"></div>
+      <div data-testid="loader-dot" className="loader-dot" />
+      <div data-testid="loader-dot" className="loader-dot" />
+      <div data-testid="loader-dot" className="loader-dot" />
     </StyledSpinner>
   );
 }
