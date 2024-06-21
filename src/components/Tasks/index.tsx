@@ -29,7 +29,7 @@ export function Tasks() {
   return (
     <div>
       {filteredTasks &&
-        filteredTasks().map((task) => (
+        filteredTasks()?.map((task) => (
           <div key={task.id!}>
             <TaskItem item={task} />
           </div>
