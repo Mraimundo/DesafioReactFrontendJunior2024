@@ -38,7 +38,7 @@ O foco deste teste é a implementação de uma lista de tarefas, onde você deve
 
 - [x] **Marcar ou desmarcar uma tarefa como concluída**: Posso marcar ou desmarcar uma tarefa como concluída.
 
-- [x] **Mouse hover e Remover Tarefa**: Ao passar o mouse em cima de uma tarefa podemos ver um ícone de remoção, ao clicar deve-se remover a tarefa.
+- [x] **Remover Tarefa**: Ao passar o mouse em cima de uma tarefa podemos ver um ícone de remoção, ao clicar deve-se remover a tarefa.
 
 - [x] **Editar uma tarefa ao clicar duas vezes no item**: Ao clicar duas vezes em um item, deve apresentar o modo de edição de uma tarefa..
 
