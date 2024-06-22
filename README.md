@@ -21,7 +21,7 @@ O foco deste teste é a implementação de uma lista de tarefas, onde você deve
 
 # Deploy da Aplicação :dash:
 
->  <a href="https://darioreisjr.vercel.app/" target='_blank'>Link do deploy da aplicação<a/>
+>  <a href="https://desafio-react-frontend-junior.vercel.app/" target='_blank'>Link do deploy da aplicação<a/>
 
 <hr/>
 
