@@ -1,5 +1,4 @@
 import React, { ComponentProps, useState } from "react";
-import { toast } from "sonner";
 import { ChevronIcon } from "../../assets/icons/chevron";
 import { IconContainer, InputContainer } from "./styles";
 import { useTasks } from "../../hooks";
@@ -27,8 +26,6 @@ export function Input({ placeholder }: InputProps) {
         isDone: false,
       });
       setTitle("");
-    } else {
-      toast.error("A task precisa ter pelo menos 2 caracteres");
     }
   };
 

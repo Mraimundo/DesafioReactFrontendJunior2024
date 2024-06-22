@@ -1,5 +1,4 @@
 import { ThemeProvider } from "styled-components";
-import { Toaster } from "sonner";
 
 import { GlobalStyle } from "./styles/global";
 import { defaultTheme } from "./styles/themes/default";
@@ -12,7 +11,6 @@ export function App() {
       <AppProvider>
         <Home />
         <GlobalStyle />
-        <Toaster richColors />
       </AppProvider>
     </ThemeProvider>
   );

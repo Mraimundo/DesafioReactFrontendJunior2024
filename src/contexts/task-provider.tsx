@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useState } from "react";
-import { toast } from "sonner";
 import { TaskContext } from "./task-context";
 import { Loader } from "../components/Loader";
 import { ITask } from "../entities/Task";
@@ -22,7 +21,6 @@ export function TaskProvider(props: TaskProviderProps) {
       const result = await tasksService.getAllTasks();
       setTasks(result);
     } catch (error) {
-      toast.error("Parece que não deu certo a sua operação!!");
     } finally {
       setIsLoading(false);
     }
@@ -41,7 +39,6 @@ export function TaskProvider(props: TaskProviderProps) {
 
       if (allTasksCompleted) {
         setAllTasksDone(true);
-        toast.success("Parabéns você concluiu todas as tarefas!");
       } else {
         setAllTasksDone(false);
       }
