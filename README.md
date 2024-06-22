@@ -57,7 +57,7 @@ O foco deste teste é a implementação de uma lista de tarefas, onde você deve
  
 # Resolvendo Problemas :exclamation:
 
-Um dos principais problemas que houve no desenvolvimento do projeto foi primeiramente na incopatibilidade da versão do nodejs na hora de installar as dependencias, podendo recuar algumas versões antiga, de especifico a versão 14^. mais com o uso do tailwind ficous facil de resolver. Outro problema foi na hora do deploy mais foi por conta da biblioteca de icones que estava com conflito mais na troca de icone importado tudo se resolveu. 
+Um dos principais problemas que houve no desenvolvimento do projeto foi primeiramente na incopatibilidade da versão do nodejs na hora de installar as dependencias, podendo recuar algumas versões antiga, de especifico a versão 14^. 
 
 <hr/>
 
@@ -65,9 +65,6 @@ Um dos principais problemas que houve no desenvolvimento do projeto foi primeira
 
 :memo: Aplicar Testes E2E
 
-:memo: Menu responsivo drawer
-
-:memo: Adiciona página de Blog 
 
 <hr/>
 
